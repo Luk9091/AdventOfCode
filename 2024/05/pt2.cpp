@@ -99,19 +99,14 @@ void print_lines(vector<vector<int>> &lines){
     }
 }
 
-int valid(vector<int> &rules, vector<int> &check, int checkIndex){
+bool valid(vector<int> &rules, vector<int> &check, int checkIndex, int &issue){
     for (int i = 0; i < checkIndex; i++) {
         if (find(rules.begin(), rules.end(), check[i]) != rules.end()){
-            return i;
+            issue=i;
+            return false;
         }
     }
-    return 0;
-}
-
-void swap(vector<int> &vec, int i, int j){
-    int tmp = vec[i];
-    vec[i] = vec[j];
-    vec[j] = tmp;
+    return true;
 }
 
 
@@ -119,7 +114,6 @@ void swap(vector<int> &vec, int i, int j){
 int main(int argc, char* argv[]){
     vector<string> args(argv, argv+argc);
 
-    cout << "Argc: " << argc << endl;
     if (argc < 2) {
         cerr << "Exept file" << endl;
         return 1;
@@ -134,7 +128,7 @@ int main(int argc, char* argv[]){
     vector<vector<int>> test;
     separete(lines, rules, test);
 
-    print_rules(rules);
+    // print_rules(rules);
     // print_lines(test);
 
     // cout << "CHECK:" << endl;
@@ -142,31 +136,37 @@ int main(int argc, char* argv[]){
     int accum = 0;
     for (int y = 0; y < lines_size; y++){
         int size = test[y].size();
-        bool badIndex;
+        bool valid_line;
         bool add = false;
 
         int i = 0;
-        print_line(test[y]);
-
-        cout << "Bad index: ";
         for (i = 1; i < size; i++){
             int value = test[y][i];
-            badIndex = valid(rules[value], test[y], i);
-            if (badIndex) {
-                cout << badIndex << ":"  << i << ", ";
-                add=true;
-                swap(test[y], i, badIndex);
+            int issue;
+            valid_line = valid(rules[value], test[y], i, issue);
+            if (!valid_line) {
+                // cout << "Line: ";
+                // print_line(test[y]);
+                // cout << "Invalid index: " << issue << endl;
+                // cout << "Cheched index: " << i << endl;
+
+                swap(test[y][i], test[y][issue]);
+                // cout << "Post swap: ";
+                // print_line(test[y]);
+
+                i = 1;
+                add = true;
             }
         }
-        cout << endl;
-        cout << "Fix: ";
-        print_line(test[y]);
 
-
-        if (badIndex == 0 && add) {
+        // print_line(test[y]);
+        // cout << "Valid: " << valid_line;
+        // cout << "\tInvalid index: " << i << endl;
+        if (add) {
             accum += get_center(test[y]);
         }
     }
+    cout << "Sum of corrent value: " << accum << endl;
 
     return 0;
 }
