@@ -1,0 +1,293 @@
+g++ pt1.cpp -o pt1
+./pt1 input.txt
+made 224381 true with + + * + + 
+made 5003 true with + + + + + * * + 
+made 441496 true with + * + + * * + + 
+made 109878300 true with + + * * * + + * 
+made 20411640 true with * + * + * 
+made 1571 true with + * + + 
+made 6714 true with + + + + * * * + * 
+made 2556260 true with * + * * 
+made 9081072 true with * * * * * 
+made 11006423 true with + * + * * + + 
+made 53385783 true with + + + * + * * 
+made 735632 true with + + + * * 
+made 12876000 true with * * * * 
+made 17581536 true with + + + + + + * * * * 
+made 202633925 true with + * + * * + 
+made 97549292 true with * * * + * + + + 
+made 1561680 true with * + * * 
+made 15191672 true with + * + * * + * 
+made 13860 true with * + * 
+made 1987 true with + + + + + 
+made 46339200 true with * + * * + * * * 
+made 20232744 true with + * * + * + 
+made 5924 true with * + + + 
+made 40312641 true with * + * * 
+made 2141175 true with + + * + + * + + 
+made 107992570 true with * * + * + + * 
+made 918935325 true with + * * * * 
+made 8469183 true with * * * * + + + 
+made 122 true with + + + * 
+made 5970 true with * + + + 
+made 27381127 true with * * + * * * + + 
+made 52476534 true with * * + + * 
+made 138880 true with + + + + + * * 
+made 995580 true with * * + * 
+made 11403 true with * + + + + + * 
+made 330447882 true with + + + * * * + * 
+made 15179 true with + * + * 
+made 1320813 true with + * + + * * 
+made 273549927 true with * + * + * + * * + 
+made 15898468 true with * * * + + * * 
+made 17320 true with * + + + 
+made 1797 true with * + * + 
+made 15547949 true with * * + + 
+made 1879637864 true with * * * + * * 
+made 8274 true with + * * + + * + + + + + 
+made 2400 true with + + * * 
+made 5168317 true with * * * + + 
+made 21250160 true with * + + + * * * + * + * 
+made 273138 true with + + * + + * + + 
+made 94662 true with + + * * 
+made 321566102 true with + + * + + * * * * + 
+made 13685 true with + + * * 
+made 790133 true with + * * * * + * * + + 
+made 8154320 true with * + + + * * + * * * 
+made 17820 true with + + + + + + + * * 
+made 1366330766 true with * + + * + * 
+made 676 true with + * + + 
+made 246966 true with + * + + * + 
+made 20297648 true with * + * * + + + + + * * 
+made 5225057 true with * + * + 
+made 103990080 true with * * * * 
+made 1105635 true with * + * + * * + 
+made 103359403 true with + * + * * + 
+made 108162065 true with + + * + * * + + * * + 
+made 6498 true with + + + + * 
+made 311694 true with + + + + + + * + 
+made 131459408 true with * * * * + * * + 
+made 1409788800 true with * * * * 
+made 117061444 true with * + * + * 
+made 37920196 true with * * * + 
+made 1444763880 true with * * * + * * * * 
+made 59444 true with + + + * + * + + 
+made 4146 true with + * + 
+made 6249600 true with * * * 
+made 9478640 true with + * + * + + * * 
+made 60044752 true with + * * * + * + + + 
+made 645625404 true with * * * * * * + * * * 
+made 1621920 true with * + * + * + * * 
+made 17690 true with * * * + + + + * + + * 
+made 365512 true with * * + * 
+made 41543073 true with * + + * * * + * + 
+made 58759 true with + * + + 
+made 25718497 true with + + + * * + + 
+made 556 true with + + + 
+made 38172933 true with * * * * + + + + 
+made 36789690 true with + + * * + * 
+made 78959322 true with * * + * * * + + * 
+made 1432 true with * * + + + + + + * 
+made 135999705 true with * * + * + + * 
+made 8242976 true with * + + * * 
+made 1083 true with + + + + 
+made 11777482 true with + + + * + * * + * + 
+made 13040 true with + + + * + + + + + * * 
+made 3843 true with * + * + 
+made 124818575 true with * + * + + + * 
+made 333432288 true with * + * + + * * 
+made 10180 true with * * + * 
+made 1791368 true with * * + + * + * 
+made 2963 true with + + * + + + 
+made 303881 true with + * + + 
+made 112534350 true with + * * * + + * * * * + 
+made 327731040 true with + * * * * * * 
+made 344484 true with * * + + 
+made 148035889 true with + * * * + * * * + 
+made 165467563 true with * + + * + * * * + + 
+made 222169 true with * * * + + 
+made 451952 true with + + * * 
+made 1665 true with * + * + + + + + + + * 
+made 91616 true with * * + + + * * + * + 
+made 53910 true with * + * + 
+made 1169035 true with + + + * * 
+made 110043089 true with * * * * * + + * + + 
+made 331500 true with * + + + + * + * 
+made 3144 true with * + + + + + * + 
+made 479159 true with + * * + 
+made 200299662 true with * * * * 
+made 2166 true with * + + 
+made 289 true with * + 
+made 139650 true with + * * * 
+made 3357 true with + + * + + + + 
+made 198440 true with * * * + 
+made 8364 true with + + + + * + + * + + 
+made 419862 true with + * 
+made 1751 true with + + + + 
+made 13111 true with * + * + 
+made 10859940 true with * * * 
+made 15881 true with + * + + * + + + 
+made 21211 true with * * * + * * + + + * + 
+made 4542060 true with + * * + + + + * + * 
+made 21933258 true with + * * * + + + * 
+made 470 true with + + + * 
+made 296359 true with * * * * + 
+made 1163647626 true with + + * * * + 
+made 22673304 true with + + * + + * * 
+made 18146520 true with * * + * * 
+made 982 true with + + * + 
+made 476 true with * + + + 
+made 23117061 true with * + * * * + * + + 
+made 921585 true with + * * * 
+made 1902730 true with * * + * + + 
+made 79546 true with * * + * 
+made 1687628 true with + * + * + * * + * * + 
+made 376580 true with * * * + * * + * * + * 
+made 10977511 true with * + + + * * + 
+made 20712 true with + * * * 
+made 2800704 true with + * * * 
+made 15704889 true with * * * * + 
+made 895536 true with * + * + + * + + * * 
+made 65724939 true with * * + + * * 
+made 948 true with + + + + * + + + + * 
+made 28473271 true with * * * + + 
+made 1014918744 true with + * * + * + * * 
+made 50852 true with + + + + * * + 
+made 1626457 true with + * * + * + + + 
+made 1759 true with * + * + 
+made 991101696 true with * * * + + + * 
+made 138642 true with + + * * + 
+made 9036 true with + + + * * 
+made 70225 true with + * + + 
+made 3825 true with + + * * + + 
+made 2851 true with * * + + * 
+made 203305584 true with * * + * + + + * 
+made 239360 true with * + * * 
+made 1143378721 true with + * * + + * * * * + 
+made 280842 true with * * * + 
+made 6422 true with + * + + * 
+made 7397 true with + * * + 
+made 413447 true with + * + * + + * + 
+made 11285120 true with + * * * 
+made 382541280 true with + + * + * * 
+made 8869392 true with * * + + + + * * 
+made 351018 true with * * + + * + + * + + * 
+made 534600 true with * * 
+made 26508882 true with * * * + * * * + * 
+made 9784837 true with * + + * * * * + * + 
+made 2958 true with * + + + + + + * * + * 
+made 789693 true with * + * * * * + + + + 
+made 10070069 true with + + + * * + * + 
+made 2001586498 true with * * + * 
+made 1578 true with + + * + + 
+made 155450400 true with * * * 
+made 66010180 true with * + * * * + * * 
+made 21605 true with + + * + 
+made 3087024 true with + * * + + + + * + + 
+made 16535367 true with * + * + + + 
+made 799003105 true with + * * * * + + 
+made 4304408 true with * + * * * * * + + * 
+made 909 true with * + * * 
+made 2214 true with * + + + + + + + + + 
+made 2097920 true with + * * * 
+made 4897932 true with * + + * * * + + * 
+made 52158 true with + * * + 
+made 23304 true with * * * + + 
+made 4243659 true with * * * + + + 
+made 471859 true with * * + * + * + + * + 
+made 443456 true with + * + + * 
+made 54974592 true with * + + + * + * 
+made 278598 true with * + * + * + * + + + 
+made 5086640 true with + + * * 
+made 606 true with + + * + 
+made 49541 true with * * * + 
+made 1790 true with + + * 
+made 503 true with * + + + 
+made 6887 true with + + + + * + * + + 
+made 918599 true with + + * + 
+made 15912846 true with * + * * * + * 
+made 8867 true with + * * * + * + 
+made 8506485 true with + * * + + * + * * 
+made 45665 true with + * * + 
+made 2012551695 true with + * + + * * 
+made 998 true with + * * + + 
+made 1734480 true with + + * * 
+made 656880 true with + * * * * 
+made 239 true with * * + + + + + + + 
+made 1665 true with + * + + 
+made 5542542 true with + + + + * + * * * + + 
+made 31211 true with + * + + * * + * + + 
+made 26321360 true with * * + * + + * * 
+made 22924 true with * + 
+made 74576 true with * * + * 
+made 12382719 true with * * * * + + + 
+made 708680 true with * + * + 
+made 722465 true with * + * * * + + * 
+made 1498968 true with * + * * + + * 
+made 1834803 true with * * * + 
+made 1449 true with + + + * 
+made 180612 true with * + + * 
+made 29768 true with + * + + 
+made 324367 true with * * * + 
+made 1662015663 true with + * * + * 
+made 122683056 true with * * * + * + + + * * * 
+made 16352 true with + + * * 
+made 13160 true with + + * * 
+made 9072 true with + * + + * 
+made 142690 true with + + + + * * + + + * 
+made 1350 true with + * 
+made 105818400 true with * * * * 
+made 508269 true with + * + + + + * * + 
+made 1612491937 true with * * * + + + * * + 
+made 1868983236 true with + * * * + * 
+made 87745140 true with * * + * * 
+made 2937158 true with + + + + * * + * 
+made 2654 true with * * * + * * + + * 
+made 31847 true with * * + + + + + + + * + 
+made 3557400 true with * * * * 
+made 275223 true with + + + * * * * * + 
+made 93181 true with + * + + 
+made 328798 true with + + + + + + * + 
+made 13952103 true with * + + * * + * + + + 
+made 47989 true with + + + * + * + + + 
+made 58 true with + + 
+made 12543 true with * * + + 
+made 440190 true with + * * * 
+made 71028585 true with * * * + 
+made 1593352 true with + * + * + * 
+made 39425 true with * + + * 
+made 946 true with + * + + * + + + + + + 
+made 26503137 true with + * * * + + 
+made 2572786 true with + + * * + * + + + 
+made 564128512 true with + + * * * 
+made 740946416 true with * + + * * * 
+made 152224 true with * + + + + 
+made 145124352 true with + * * * 
+made 1462 true with * + * 
+made 15930 true with * * * + * 
+made 163048 true with * * + * + + + 
+made 12547 true with * + 
+made 106568000 true with + + * * 
+made 2570994 true with * + + * * + + * + * * 
+made 945 true with + + * * 
+made 271349811 true with + + * + * * 
+made 40876 true with + * + + * 
+made 7838019 true with * * + * 
+made 44949960 true with * + * * 
+made 1097 true with + + + + * + 
+made 1143 true with + + * + + + * + + * + 
+made 5679 true with * + + * 
+made 5197478 true with * + + + + + * * 
+made 26523 true with + + + + + * * + * + 
+made 264220 true with + + * + + * + 
+made 1041 true with * + + * 
+made 28887040 true with * + * + * * * * 
+made 17084 true with + * * + 
+made 102297857 true with + * * * * + + 
+made 971 true with + + + + + + 
+made 20407 true with + * * + * * * + + 
+made 1724327218 true with * * * + 
+made 128448 true with + + + + * * * 
+made 1285 true with + + * + + 
+made 2034580 true with + * + * + * 
+Accum: 31874228901

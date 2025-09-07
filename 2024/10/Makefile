@@ -1,10 +1,10 @@
 CXX=g++
 FILE=example.txt
 
-default: pt2.cpp
+default: pt1.cpp
 	@echo "Selected file: ${FILE}"
-	$(CXX) pt2.cpp -o pt2
-	./pt2 $(FILE) -d
+	$(CXX) pt1.cpp -o pt1
+	./pt1 $(FILE) -d
 
 1: pt1.cpp
 	$(CXX) pt1.cpp -o pt1
@@ -14,3 +14,9 @@ default: pt2.cpp
 	$(CXX) pt2.cpp -o pt2
 	./pt2 $(FILE)
 
+
+1g: pt1.cpp
+	$(CXX) pt1.cpp -o pt1 -g
+
+2f: pt2.cpp
+	$(CXX) pt2.cpp -o pt2 -g
